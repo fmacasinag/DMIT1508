@@ -67,6 +67,9 @@ Province char(2) not null,
 PC  char(6) not null,
 )
 
+/*****************************************************************************/
+---------------Insert constraints in the Staff table below--------------------
+
 Create Table Staff
 (
 StaffID int not null constraint pk_Staff primary key clustered,
@@ -76,6 +79,8 @@ Phone varchar(10) not null,
 Wage smallmoney not null ,
 HireDate datetime not null,
 )
+
+/*****************************************************************************/
 
 Create Table Item
 (
