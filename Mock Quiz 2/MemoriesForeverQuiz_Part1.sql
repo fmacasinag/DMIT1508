@@ -64,7 +64,7 @@ Email varchar(50) not null,
 Address varchar(100) not null,
 City varchar(50) not null,
 Province char(2) not null,
-PC  char(6) not null,
+PC  char(6) not null
 )
 
 /*****************************************************************************/
@@ -78,6 +78,7 @@ StaffLastName varchar(50) not null,
 Phone varchar(10) not null,
 Wage smallmoney not null ,
 HireDate datetime not null,
+StaffTypeID int not null
 )
 
 /*****************************************************************************/
@@ -269,7 +270,7 @@ Insert into ProjectItem(ItemID, ProjectID, CheckInNotes, CheckOutNotes, DateOut,
 --3. Select all project type descriptions and the average total for each project type
 
 
---4. Select project descriptions where they used a Nikon camera
+--4. Select project descriptions where they used a Nikon product
 
 
 
